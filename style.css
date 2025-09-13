@@ -1,0 +1,83 @@
+p {
+    color: blue;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    text-align: justify;
+} 
+
+body{
+    background-image: url(clash-royale-21292-3.jpg);
+}
+
+.Pclasse {
+    color: green;
+}
+
+#pID {
+    color: red;
+}
+
+a {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: yellow;
+}
+
+a:active {
+    color: orange;
+}
+
+:root{
+    --corPrimaria: blue;   
+    --corSecundaria: pink;
+    --corFundo: antiquewhite; 
+    --corTexto: black;   
+}
+
+.div1 {
+    width: 200px;
+    height: 100px;
+    color: black;
+    display: inline-flex;
+    gap: 55px;
+}
+
+.box1 {
+    margin: 20px;
+    border: 1px solid black;
+}
+
+.box2 {
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.box3 {
+    border: 5px solid black;
+}
+
+h1 {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+button{ 
+    text-transform: uppercase;
+    transition: all 0.3s;
+    border-radius: 10px;
+    color: white;
+    background-color: blue;
+    height: 80px;
+}
+button:hover{
+    background-color: green;
+}
+
